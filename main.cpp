@@ -1,10 +1,10 @@
 #include <iostream>
 
 int main() {
-    float a = 7;
-    std::cout << a + 3 << std::endl;
-    std::cout << a - 3 << std::endl;
-    std::cout << a * 3 << std::endl;
-    std::cout << a / 3 << std::endl;
+    char a=124+1;
+    std::cout << char(a+3.) << std::endl;
+    std::cout << char(a-3.) << std::endl;
+    std::cout << char(a/3.) << std::endl;
+    std::cout << char(a*3.) << std::endl;
     return 0;
 }
